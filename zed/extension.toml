@@ -1,0 +1,11 @@
+[package]
+id = "eventide-theme"
+name = "Eventide"
+version = "0.1.0"
+schema_version = 1
+authors = ["Your Name <you@example.com>"]
+description = "A muted dark theme with One Dark blue-gray surfaces and Catppuccin Mocha syntax accents. WCAG AA compliant. Optimized for Python, Rust, C/C++, TypeScript/TSX, and DevOps workflows."
+repository = "https://github.com/your-username/eventide-theme"
+
+[themes]
+themes = ["themes/eventide.json"]

@@ -1,0 +1,53 @@
+{
+  "name": "eventide",
+  "displayName": "Eventide",
+  "description": "A muted dark theme with One Dark blue-gray surfaces and Catppuccin Mocha syntax accents. WCAG AA compliant. Optimized for Python, Rust, C/C++, TypeScript/TSX, and DevOps workflows.",
+  "version": "0.1.0",
+  "publisher": "your-publisher-id",
+  "author": {
+    "name": "Your Name"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/eventide-theme"
+  },
+  "bugs": {
+    "url": "https://github.com/your-username/eventide-theme/issues"
+  },
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#282c34",
+    "theme": "dark"
+  },
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark theme",
+    "color-theme",
+    "one dark",
+    "catppuccin",
+    "mocha",
+    "python",
+    "rust",
+    "devops",
+    "muted",
+    "pastel",
+    "WCAG",
+    "accessible"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Eventide",
+        "uiTheme": "vs-dark",
+        "path": "./themes/eventide-color-theme.json"
+      }
+    ]
+  }
+}
